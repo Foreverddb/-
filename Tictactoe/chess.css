@@ -1,0 +1,43 @@
+body
+{
+	color: #000000;
+	padding: 0px;
+    margin: 0;
+}
+.chess{
+    width: 615px;
+    height: 615px;
+    float: left;
+}
+.chess .box{
+    border: solid 2px;
+    width: 201px;
+    height: 201px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.chess .box .btn{
+	border: solid 1px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 67px;
+    height: 67px;
+    float: left;
+    font-size: 55px;
+}
+.chess #box5{
+	border:solid 2px red;
+}
+.outBtn{
+	width: 400px;
+    height: 60px;
+    font-size: 35px;
+    float: left;
+    display: block;
+}
+.outBtn p{
+	font-size: 15px;
+    height: 20px;
+}

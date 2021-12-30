@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head> 
+		<meta charset="UTF-8"> 
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+      	<link rel="stylesheet" href="chess.css"> 
+        <script src="chess.js"></script>
+	</head> 
+	<body onload="fresh()"> 
+		<div class="chess">
+			 <div class="box" id="box1">
+          		<button id="box1 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box1 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box1 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box1 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box1 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box1 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box1 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box1 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box1 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box2">
+          		<button id="box2 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box2 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box2 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box2 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box2 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box2 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box2 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box2 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box2 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box3">
+          		<button id="box3 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box3 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box3 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box3 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box3 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box3 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box3 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box3 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box3 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box4">
+          		<button id="box4 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box4 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box4 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box4 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box4 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box4 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box4 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box4 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box4 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box5">
+          		<button id="box5 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box5 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box5 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box5 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box5 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box5 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box5 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box5 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box5 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box6">
+          		<button id="box6 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box6 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box6 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box6 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box6 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box6 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box6 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box6 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box6 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box7">
+          		<button id="box7 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box7 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box7 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box7 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box7 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box7 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box7 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box7 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box7 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box8">
+          		<button id="box8 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box8 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box8 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box8 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box8 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box8 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box8 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box8 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box8 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+             <div class="box" id="box9">
+          		<button id="box9 btn1" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box9 btn2" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box9 btn3" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box9 btn4" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box9 btn5" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box9 btn6" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+            	<button id="box9 btn7" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+                <button id="box9 btn8" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+				<button id="box9 btn9" class="btn" onclick="return putOn(this.parentNode.id,this.id)"></button>
+         	 </div>
+		</div>  
+        <div style="height: 400px;" class="outBtn">统计情况：<br>
+        	<table border="1">
+        		<tr>
+              		<th>平局</th>
+                    <th>先手胜</th>
+                    <th>后手胜</th>
+                </tr>
+                <tr>
+                	<td id="ping"></td>
+                   <td id="quanquan"></td>
+                   <td id="chacha"></td>
+                </tr>
+        	</table>
+            <p id="lasttimes"></p>
+            <p id="pingrate"></p>
+            <p id="quanrate"></p>
+            <p id="charate"></p>
+            <p id="alreadyTimes"></p>
+            <p id="usingTime"></p>
+            <p style="color: red;" id="whowin"></p>
+        </div>
+        <button class="outBtn" onclick="javascript:if(confirm('你真的要变身成为小学生吗？')){window.location = 'index.html';}">掀桌重来</button>
+        <button class="outBtn" onclick="randomStep()">乱下一步</button>
+        <button class="outBtn" onclick="setTimes()">狂下不止</button>      
+        <button class="outBtn" onclick="clearIt()">重置统计数据</button>
+        <script>         
+        </script>
+	</body>
+</html>
