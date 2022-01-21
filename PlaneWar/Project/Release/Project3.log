@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\阿鲜\Desktop\泥电连环聚众内卷案(绝密)\程算项目 打飞机\Project3\Project3\Project3\Game.h(150,85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 50 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Project3.vcxproj -> C:\Users\阿鲜\Desktop\泥电连环聚众内卷案(绝密)\程算项目 打飞机\Project3\Project3\Release\Project3.exe
